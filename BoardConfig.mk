@@ -17,7 +17,7 @@
 # inherit from common v4xx
 -include device/lge/v4xx-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := v400
+TARGET_OTA_ASSERT_DEVICE := v400,e7,e7wifi
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogen_e7wifi_defconfig
