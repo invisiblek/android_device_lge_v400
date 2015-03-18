@@ -26,5 +26,10 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# No RIL
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.radio.noril=true \
+	ro.carrier=wifi-only
+
 # common v4xx
 $(call inherit-product, device/lge/v4xx-common/v4xx.mk)
