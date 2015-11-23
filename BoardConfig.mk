@@ -19,9 +19,6 @@
 
 TARGET_OTA_ASSERT_DEVICE := v400,e7,e7wifi
 
-# Bump
-TARGET_REQUIRES_BUMP := true
-
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogen_e7wifi_defconfig
 
