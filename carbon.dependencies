@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "gh",
+    "repository": "CarbonROM/android_device_lge_v4xx-common",
+    "target_path": "device/lge/v4xx-common",
+    "revision": "cr-4.0"
+  }
+]
